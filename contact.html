@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(".btn").click(function(){
+        $(".input, .area").val("");
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+    <p>CONTACT US</p>
+
+    <div class="login">
+      <input type="text" placeholder="Your Name" class="input">
+      <input type="text" placeholder="Your Email Address" class="input">
+    </div>
+
+    <div class="subject">
+      <input type="text" placeholder="Subject" class="input">
+    </div>
+
+    <div class="msg">
+      <textarea  class="area" placeholder="Leave a Message"></textarea>
+    </div>
+
+    <div class="btn">Send Message</div>
+  </div>
+
+  </body>
+</html>
